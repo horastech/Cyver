@@ -1,0 +1,395 @@
+header{
+    height: 100vh;
+}
+h1 , h2 , h3{
+    font-family:  'Nunito', sans-serif;     
+}
+nav{
+    background: linear-gradient(rgb(10, 10, 52) , rgb(1, 20, 37));
+    padding: 10px;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo{
+    display: flex;
+}
+nav .logo img{
+    width: 50px;
+    height: 50px;
+}
+nav .logo ul{
+    display: flex;   
+    margin-top: 10px;
+
+}
+nav .logo ul li{
+    list-style: none;
+    margin-right: 10px;
+}
+nav .logo ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    transition: .5s;
+}
+nav .logo ul li a:hover{
+    opacity: .7;
+}
+nav .buttons{
+    margin-top: 10px;
+}
+nav .buttons a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: .5s;
+}
+nav .buttons a:hover{
+    text-decoration: underline;
+}
+nav .buttons .button{
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: .3s;
+}
+nav .buttons .button:hover{
+    background-color: white;
+    text-decoration: none;
+    color: rgb(16, 16, 47);
+}
+header .text{
+    padding-top: 150px;
+    color: white;
+}
+header .text h1{
+    font-weight: bold;
+    font-size: 3rem;
+}
+header .text h1 span{
+    color: aqua;
+}
+header .text p{
+    opacity: .8;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+header .container .row .text a{
+    color: white;
+    padding: 12.5px 45px;
+    border-radius: 5px;
+    transition: .5s;
+    text-decoration: none;
+    background: linear-gradient(to right , rgb(0, 206, 206) , rgb(59, 170, 234));
+}
+header .container .row .text a:hover{
+    padding: 15px 50px;
+}
+header img{
+    width: 90%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.ad{
+    text-align: center;
+    color: rgb(0, 255, 242) ;
+}
+.ad h1{
+    font-weight: 700;
+}
+.ad hr{
+    background-color: aqua;
+    border-radius: 30px;
+    border: aqua 2px solid;
+    width: 75%;
+    margin-top: 15px;
+}
+#Plugins{
+    width: 85%;
+    margin: auto;
+}
+#Plugins .div{
+    text-align: center;
+    color: white;
+    border: 1px solid aqua;
+    padding: 10px;
+    box-shadow: rgba(127, 255, 212, 0.132) 3px 3px 3px 3px;
+    background-color: rgb(14, 14, 43);
+}
+#Plugins .div i{
+    color: aqua;
+    padding: 35px;
+    transform: scale(4);
+}
+#Plugins .div a{
+    text-decoration: none;
+    color: aqua;
+}
+#one{
+    overflow: hidden;
+}
+#one div div{
+    color: white;
+    text-align: center;
+    background: linear-gradient(aqua , rgb(0, 128, 255));
+    border: 1px solid black;
+    height: 50vh;
+    transition: .5s;
+}
+#one div div i{
+    transform: scale(3);
+    padding: 50px;
+    margin-top: 75px;
+}
+#one div div:hover{
+    background: linear-gradient(aqua , rgb(0, 128, 255));
+    height: 0;
+}
+#Features .text{
+    padding-top: 100px ;
+    color: white;
+}
+#Features .text h2{
+    font-size: 2.2rem;
+}
+#Features .text p{
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+}
+#Features .text p span{
+    color: aqua;
+    font-weight: bold;
+}
+#Features .text a{
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(rgb(0, 225, 225) , rgb(0, 149, 255));
+    padding: 10px 25px;
+    border-radius: 3px;
+    transition: .5s;
+}
+#Features .text a:hover{
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+#two .text{
+    padding: 20px;
+}
+#two .text h2{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+#two .text p{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+#two .text a{
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(rgb(0, 160, 218) , rgb(0, 187, 234));
+    padding: 10px 25px;
+    border-radius: 3px;
+    transition: .5s;
+}
+#two .text a:hover{
+    padding: 15px 30px;
+}
+#Pricing div div div div{
+    border: 2px aqua solid;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 20px;
+    height: 250px;
+    background-size: 0%;
+    transition: .5s;
+}
+#Pricing div div div div:hover{
+    transform: scale(1.1);
+}
+#Pricing div div div div i{
+    background: linear-gradient(rgb(0, 255, 191) , rgb(0, 191, 255));
+    padding: 15px;
+    border-radius: 5px;
+}
+#Pricing div div div div h6{
+    margin-top: 10px;
+}
+#Pricing div div div div p{
+    font-size: 1.3rem;
+}
+#four .container{
+    color: white;
+    padding: 30px;
+}
+#four p{
+    font-size: 1.5rem;
+    opacity: .8;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+#four h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+#four .button{
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(rgb(0, 160, 218) , rgb(0, 187, 234));
+    padding: 10px 25px;
+    border-radius: 3px;
+    transition: .5s;
+    margin-right: 30px;
+}
+#four .button:hover{
+    padding: 15px 30px;
+}
+#Contact .div{
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px rgba(245, 245, 245, 0.2);
+    padding: 20px;
+    height: 60vh;
+    transition: .5s;
+}
+#Contact .div img{
+    width: 75%;
+    margin-top: -100px;
+}
+#Contact .div h3{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#Contact .div p{
+    font-size: 1.1rem;
+    opacity: .9;
+    margin-bottom: 30px;
+}
+#Contact .div a{
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(rgb(0, 160, 218) , rgb(0, 187, 234));
+    padding: 10px 25px;
+    border-radius: 3px;
+    transition: .5s;
+}
+#Contact .div a:hover{
+    padding: 15px 30px;
+}
+footer .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+footer .flex hr{
+    background-color: white;
+    width: 45%;
+}
+footer .flex img{
+    width: 40px;
+}
+footer h5{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+footer a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    opacity: .7;
+    margin-top: 10px;
+    transition: .5s;
+}
+footer p{
+    color: white;
+    margin-top: 50px;
+}
+@media screen and (max-width:650px) {
+    nav .logo ul{
+        display: none;
+    }
+    nav .buttons{
+        display: none;
+    }
+    nav .container .logo{
+        margin: auto;
+    }
+    header{
+        height: auto;
+    }
+    header .text{
+        padding-top: 125px;
+        text-align: center;
+    }
+    header .text h1{
+        font-size: 2rem;
+    }
+    header .text p{
+        width: 100%;
+    }
+    header img{
+        width: 90%;
+        margin: auto;
+        padding-top: 50px ;
+        padding-left: 30px;
+    }
+    #Plugins{
+        width: 90%;
+        margin: auto;
+    }
+    #Plugins .div{
+        transform: scale(.9);
+    }
+    #Plugins .div i{
+        transform: scale(3);
+    }
+    #one div div:hover{
+        border-radius: 10px;
+        transform: scale(.8);
+        height: 50vh;
+    }
+    #Features img{
+        margin-top: 50px;
+        width: 95%;
+    }
+    #Pricing div div div div{
+        height: auto;
+    }
+    #Pricing div div div div:hover{
+        transform: scale(.9);
+    }
+    #four p{
+        margin-top: 30px;
+    }
+    #four .button{
+        display: block;
+        width: 60%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    #Contact .div{
+        margin-bottom: 35%;
+        height: auto;
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    footer .flex hr{
+        width: 40%;
+    }
+    footer h5{
+        margin-top: 30px;
+    }
+}
